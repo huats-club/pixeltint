@@ -1,10 +1,10 @@
 # Tested on Raspberry Pi 4 Model B
 # Huats Club 2022 for the Pixel-Tint Project
 from PIL import Image, ImageOps
-from student_pub import *
+#from student_pub import *
 
 ## open image file
-myImage = Image.open('pokeball.png')
+myImage = Image.open('Pixelizer/pokeball.png')
 myImage.show()
 
 ## greyscale image file
@@ -38,4 +38,4 @@ for i in range(x):
         k = k + 1;
 
 print(outputValue)
-pubpic(outputValue)
+#pubpic(outputValue)
