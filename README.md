@@ -50,4 +50,14 @@ sudo apt install imagemagick
 ```
 
 ### MQTT
-The **MQTT** folder contain the following python file, **student_pub.py**, where 
+The **MQTT** folder contain the following python file, **student_pub.py**, where it allows the **raspberry pi** to publish a **MQTT Message** to a broker, "**gateway pi**".
+
+**Installation**
+#### Install MQTT client
+`sudo apt install -y mosquitto-clients`
+
+#### To run python mqtt script, please install
+`sudo pip3 install paho-mqtt`
+
+#### If pip3 is not already installed
+`sudo apt install python3-pip`
